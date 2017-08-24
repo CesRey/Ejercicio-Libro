@@ -8,4 +8,12 @@ public class Libro
         Titulo=Titule;
         Autor=Autore;
     }
+    public String dimeAutor()
+    {
+       return Autor;
+    }
+    public String dimeTitulo()
+    {
+       return Titulo;
+    }
 }
